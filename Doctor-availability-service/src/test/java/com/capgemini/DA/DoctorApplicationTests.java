@@ -1,4 +1,4 @@
-package com.capgemini.DA;
+package com.cap.DA;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
