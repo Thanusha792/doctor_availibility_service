@@ -1,4 +1,4 @@
-package com.capgemini.DA.exception;
+package com.cap.DA.exception;
 /*
  * This is the Exception class which handles FieldEmpty Exception
  */
