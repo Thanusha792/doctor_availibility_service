@@ -1,4 +1,4 @@
-package com.capgemini.DA.repository;
+package com.cap.DA.repository;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.capgemini.DA.Dto.Doctors;
-import com.capgemini.DA.model.Doctor;
+import com.cap.DA.Dto.Doctors;
+import com.cap.DA.model.Doctor;
 
 @Repository
 public interface DoctorRepository extends JpaRepository<Doctor, Integer> {
