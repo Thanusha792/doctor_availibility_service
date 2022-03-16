@@ -1,4 +1,4 @@
-package com.capgemini.DA.Dto;
+package com.DA.Dto;
 
 public class Doctors {
 
