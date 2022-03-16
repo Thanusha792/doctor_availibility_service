@@ -1,9 +1,9 @@
-package com.capgemini.DA.service;
+package com.cap.DA.service;
 
-import com.capgemini.DA.Dto.Doctors;
-import com.capgemini.DA.exception.FieldEmptyException;
-import com.capgemini.DA.exception.NoDoctorsFound;
-import com.capgemini.DA.model.Doctor;
+import com.cap.DA.Dto.Doctors;
+import com.cap.DA.exception.FieldEmptyException;
+import com.cap.DA.exception.NoDoctorsFound;
+import com.cap.DA.model.Doctor;
 
 import java.util.List;
 
