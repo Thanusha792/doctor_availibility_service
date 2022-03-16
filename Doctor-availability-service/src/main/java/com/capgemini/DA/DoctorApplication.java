@@ -1,4 +1,4 @@
-package com.capgemini.DA;
+package com.cap.DA;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
