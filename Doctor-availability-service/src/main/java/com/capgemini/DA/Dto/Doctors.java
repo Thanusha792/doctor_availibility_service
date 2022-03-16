@@ -1,4 +1,4 @@
-package com.DA.Dto;
+package com.cap.DA.Dto;
 
 public class Doctors {
 
