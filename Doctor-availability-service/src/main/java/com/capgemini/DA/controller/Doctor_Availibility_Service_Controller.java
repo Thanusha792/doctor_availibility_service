@@ -1,4 +1,4 @@
-package com.capgemini.DA.controller;
+package com.cap.DA.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.capgemini.DA.Dto.Doctors;
-import com.capgemini.DA.Dto.InputTime;
-import com.capgemini.DA.exception.FieldEmptyException;
-import com.capgemini.DA.exception.NoDoctorsFound;
-import com.capgemini.DA.model.Doctor;
-import com.capgemini.DA.service.DoctorServiceImpl;
+import com.cap.DA.Dto.Doctors;
+import com.cap.DA.Dto.InputTime;
+import com.cap.DA.exception.FieldEmptyException;
+import com.cap.DA.exception.NoDoctorsFound;
+import com.cap.DA.model.Doctor;
+import com.cap.DA.service.DoctorServiceImpl;
 
 import java.util.List;
 
