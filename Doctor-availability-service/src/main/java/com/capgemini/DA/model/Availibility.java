@@ -1,4 +1,4 @@
-package com.DA.model;
+package com.cap.DA.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
