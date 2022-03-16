@@ -1,4 +1,4 @@
-package com.capgemini.DA;
+package com.cap.DA;
 
 
 import org.junit.jupiter.api.Test;
@@ -9,9 +9,9 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 
-import com.capgemini.DA.model.Availibility;
-import com.capgemini.DA.model.Doctor;
-import com.capgemini.DA.service.DoctorService;
+import com.cap.DA.model.Availibility;
+import com.cap.DA.model.Doctor;
+import com.cap.DA.service.DoctorService;
 
 
 import java.util.ArrayList;
