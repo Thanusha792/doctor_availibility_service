@@ -1,4 +1,4 @@
-package com.capgemini.DA.model;
+package com.DA.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
