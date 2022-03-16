@@ -1,12 +1,12 @@
-package com.capgemini.DA.service;
+package com.cap.DA.service;
 
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.capgemini.DA.repository.AvailibilityRepository;
-import com.capgemini.DA.repository.DoctorRepository;
+import com.cap.DA.repository.AvailibilityRepository;
+import com.cap.DA.repository.DoctorRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,12 +14,12 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.capgemini.DA.Dto.Doctors;
-import com.capgemini.DA.controller.Doctor_Availibility_Service_Controller;
-import com.capgemini.DA.exception.FieldEmptyException;
-import com.capgemini.DA.exception.NoDoctorsFound;
-import com.capgemini.DA.model.Availibility;
-import com.capgemini.DA.model.Doctor;
+import com.cap.DA.Dto.Doctors;
+import com.cap.DA.controller.Doctor_Availibility_Service_Controller;
+import com.cap.DA.exception.FieldEmptyException;
+import com.cap.DA.exception.NoDoctorsFound;
+import com.cap.DA.model.Availibility;
+import com.cap.DA.model.Doctor;
 
 @Service("doctorService")
 public class DoctorServiceImpl implements DoctorService{
